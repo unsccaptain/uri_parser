@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="base.c" />
     <ClCompile Include="buffer.c" />
     <ClCompile Include="uri_builder.c" />
     <ClCompile Include="uri_internal.c" />
@@ -149,6 +150,7 @@
   <ItemGroup>
     <ClInclude Include="np_base.h" />
     <ClInclude Include="np_buffer.h" />
+    <ClInclude Include="np_stream.h" />
     <ClInclude Include="np_uri.h" />
     <ClInclude Include="uri_internal.h" />
   </ItemGroup>

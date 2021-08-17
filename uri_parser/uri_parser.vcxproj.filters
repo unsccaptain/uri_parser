@@ -30,6 +30,9 @@
     <ClCompile Include="buffer.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="base.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="uri_internal.h">
@@ -42,6 +45,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="np_uri.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="np_stream.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
